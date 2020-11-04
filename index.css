@@ -1,0 +1,126 @@
+/* Fontes */
+.calibri-bold{
+    font-family: calibri,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.calibri-bold-italic{
+    font-family: calibri,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.calibri-italic{
+    font-family: calibri,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.calibri-light{
+    font-family: calibri,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.calibri-light-italic{
+    font-family: calibri,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.calibri-regular{
+    font-family: calibri,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Lora */
+.lora-italic{
+    font-family: lora,serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.lora-bold-italic{
+    font-family: lora,serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.lora-bold{
+    font-family: lora,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.lora-regular{
+    font-family: lora,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Montserrat */
+.montserrat-semi-bold{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.montserrat-regular{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+}
+.sec1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: none;
+}
+.sec1 h1{
+    position: absolute;
+    width: 50vw;
+    z-index: 11;
+    bottom: 10vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    text-align: center;
+    color: #F1F1F1;
+    font-size: 3vh;
+}
+canvas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#interactive-particles{
+    z-index: 10;
+}
+#lab{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+  
+  .content{
+    overflow: hidden;
+  }
+  
+  .cursor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    pointer-events: none;
+    border: 1px solid rgba(255,255,255, 0.7);
+  }
